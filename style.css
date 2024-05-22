@@ -28,9 +28,12 @@ body {
     justify-content: center;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--bg-main);
     color: var(--text);
     font-size: 14px;
+    background: url(images/pexels-shonejai-445753-1227511.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: right top;
 }
 
 .container {
