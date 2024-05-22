@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: var(--text);
     font-size: 14px;
     background: url(images/pexels-shonejai-445753-1227511.jpg);
@@ -101,15 +101,51 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--bg-user);
+    padding-top: 2em;
     color: var(--text);
-    font-size: 16px;
-    padding: 1em;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    font-size: 18px;
+    width: 100%;
+    backdrop-filter: blur(2px)
 }
 
-.user-info figure {
+.profile-pic {
+  border-radius: 50%;
+  border: 7px solid #FFFFFF;
+  width: 300px;
+  max-width: 90%;
+  height: auto;
+
+}
+
+.user-info div {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: left;
+
+  /* width: 100%; */
+
+}
+
+.user-info div p {
+  width: 100%;
+  margin: 0;
+  color: #727272;
+  padding: 0;
+  padding-bottom: 18px;
+}
+.user-info div h2 {
+  margin-bottom: 0;
+  font-size: 2em;
+  font-weight: 900;
+  color: #000000;
+}
+.user-info div span{
+  font-size: 1.8em;
+  font-weight: 800;
+}
+
+/* .user-info figure {
     width: 90%;
     max-width: 200px;
 }
@@ -133,7 +169,7 @@ ul {
     padding: 0;
     border-bottom: 1px solid var(--text);
     padding-bottom: 18px;
-}
+} */
 
 .filter-repos,
 input {
